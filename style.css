@@ -1,0 +1,20 @@
+.wrapper {
+    width: 100vw;
+    align-items: center;
+    height: 100vh;
+}
+.column {
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+.container {
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
