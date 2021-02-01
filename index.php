@@ -36,7 +36,8 @@ $faq = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <!-- scss -->
+    <link rel="stylesheet" href="./dist/css/style.css">
     <title>Google FAQ</title>
 </head>
 <body>
@@ -47,7 +48,6 @@ $faq = [
                 
                 
                 <h2><?php echo $value['question'] ?></h2>
-            
 
                 <?php
                 $split_answer = explode('&',$value['answer']);
