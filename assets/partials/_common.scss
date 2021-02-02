@@ -11,3 +11,17 @@
 .flex {
     display: flex;
 }
+
+.active {
+    color: blue !important;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+
+}
+

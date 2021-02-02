@@ -36,14 +36,44 @@ $faq = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- scss -->
     <link rel="stylesheet" href="./dist/css/style.css">
+  
     <title>Google FAQ</title>
 </head>
 <body>
+    
+    <header>
+        <nav class="flex column fixed-top">
+        <div class="nav_top flex">
+            <img src="./assets/img/google_logo.jpg" style="width:100px" alt="">
+            <h3>Privacy & Termini</h3>
+        </div>
+        <div class="nav_bottom">
+         <ul>
+            <li>
+            <a href="">Introduzione</a>
+            </li>
+            <li>
+            <a href="">Norme sulla privacy</a>
+            </li>
+            <li>
+            <a href="">Termini di servizio</a>
+            </li>
+            <li>
+            <a href="">Domande frequenti</a>
+            </li>
+            </ul></div>
+           
+        </nav>
+    </header>
+    
+    <main>
  
-    <div class="container">
-        <?php
+        <div class="container">
+           <?php
             foreach($faq as $value) { ?>
                 
                 
@@ -60,6 +90,7 @@ $faq = [
         ?>
 
         </div>
+    </main>
 
     
     

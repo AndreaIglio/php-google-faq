@@ -1,0 +1,17 @@
+nav {
+    border-bottom: 1px solid black !important;
+    background-color: white;
+
+    .nav_top {
+        padding-left: 50px;
+    }
+
+    ul {
+        margin: 0;
+        list-style-type: none;
+        li {
+            display: inline;
+            padding: 5px 10px;
+        }
+    }
+}
